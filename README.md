@@ -22,8 +22,8 @@ func main() {
 	logrus.SetOutput(os.Stderr)
 
 	servers := []string{"nats://localhost:4222"}
-	hook := logrus-nats.NewNATSHook(servers, "my-subject")
-	log.AddHook(hook)
+	hook := logrusnats.NewNATSHook(servers, "my-subject")
+	logrus.AddHook(hook)
 
 	logrus.Warn("warning")
 	logrus.Info("info")
