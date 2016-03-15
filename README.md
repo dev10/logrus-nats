@@ -32,4 +32,7 @@ func main() {
 ```
 
 ## Credits
-Based on AMQP handler by [vladoatanasov](https://github.com/vladoatanasov/logrus_amqp)
+Based on AMQP handler by [vladoatanasov](https://github.com/vladoatanasov/logrus_amqp).
+
+## License
+Released under the [MIT License](http://www.opensource.org/licenses/MIT).
