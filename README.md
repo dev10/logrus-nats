@@ -1,5 +1,4 @@
 [![Build Status](https://semaphoreci.com/api/v1/ehoward/logrus-nats/branches/master/shields_badge.svg)](https://semaphoreci.com/ehoward/logrus-nats)
-
 # logrus-nats
 
 A [Logrus]( https://github.com/Sirupsen/logrus) hook for sending data to [NATS]( http://nats.io/)
